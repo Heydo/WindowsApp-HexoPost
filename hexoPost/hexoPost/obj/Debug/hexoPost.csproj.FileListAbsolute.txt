@@ -1,0 +1,9 @@
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\bin\Debug\hexoPost.exe.config
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\bin\Debug\hexoPost.exe
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\bin\Debug\hexoPost.pdb
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\obj\Debug\hexoPost.csprojResolveAssemblyReference.cache
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\obj\Debug\hexoPost.Form1.resources
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\obj\Debug\hexoPost.Properties.Resources.resources
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\obj\Debug\hexoPost.csproj.GenerateResource.Cache
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\obj\Debug\hexoPost.exe
+D:\visual studio 2017\Projects\hexoPost\WindowsApp-HexoPost\HexoPost\hexoPost\obj\Debug\hexoPost.pdb
