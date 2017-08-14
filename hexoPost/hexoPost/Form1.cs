@@ -72,5 +72,10 @@ namespace hexoPost
             //    filePath.Text = ofp.FileName.Replace(ofp.SafeFileName, "");
             //}
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Heydo");
+        }
     }
 }

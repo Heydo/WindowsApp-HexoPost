@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.fileName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,6 +45,7 @@
             this.filePath = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.button1 = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // fileName
@@ -99,7 +101,7 @@
             // Creat_button
             // 
             this.Creat_button.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Creat_button.Location = new System.Drawing.Point(279, 325);
+            this.Creat_button.Location = new System.Drawing.Point(334, 322);
             this.Creat_button.Name = "Creat_button";
             this.Creat_button.Size = new System.Drawing.Size(118, 37);
             this.Creat_button.TabIndex = 5;
@@ -184,9 +186,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("微软雅黑 Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.linkLabel1.Location = new System.Drawing.Point(644, 367);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(85, 25);
+            this.linkLabel1.TabIndex = 15;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "@heydo";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(751, 412);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.filePath);
             this.Controls.Add(this.label1);
@@ -202,7 +218,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.fileName);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.Text = "Hexo文章生成工具";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,6 +245,7 @@
         private System.Windows.Forms.TextBox filePath;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
