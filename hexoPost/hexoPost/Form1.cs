@@ -53,6 +53,7 @@ namespace hexoPost
             sw.Close();
             MessageBox.Show("文件生成完毕！");
             this.Close();
+            System.Diagnostics.Process.Start("explorer.exe", path);
 
             //Console.WriteLine(categories);
         }
